@@ -14,14 +14,17 @@ chmod +x rwg.sh
 
 Within the bash-rwg folder, executing the command without arguments generates one random
 word:
-
 <pre><code>
 ./rwg.sh
 </pre></code>
 
-You can use the -n option to generate a name instead.
+You can use the -n option to generate a name instead:
+<pre><code>
+./rwg.sh -n
+</pre></code>
 
 You can generate any number of random words, and the sequence is not predictable:
 <pre><code>
 ./rwg.sh 20
+./rwg.sh -n 10
 </pre></code>
