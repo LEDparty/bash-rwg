@@ -1,5 +1,4 @@
 # About
-https://youtu.be/3WwEvtFDKMc
 A small script that randomly generates words from dictionary files using system
 nanoseconds.
 
