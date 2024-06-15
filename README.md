@@ -4,6 +4,11 @@ nanoseconds.
 
 # Install
 
+**This script does not work with z shell** because it uses readarray in order to make the
+dictionary accesible to the script. In it's current form, it's a linux only application
+for bash interpreters. You can use the <code>chsh</code> command to change your default
+shell:
+
 <pre><code>
 git clone https://github.com/LEDparty/bash-rwg
 cd bash-rwg
@@ -16,6 +21,13 @@ Within the bash-rwg folder, executing the command without arguments generates on
 word:
 <pre><code>
 ./rwg.sh
+</pre></code>
+
+If you are using z shell as your primary shell, but don't want to change your default 
+settings, you can run this command from the bash-rwg folder you installed:
+
+<pre><code>
+bash rwg.sh
 </pre></code>
 
 You can use the -n option to generate a name instead:
