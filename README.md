@@ -5,7 +5,7 @@ nanoseconds.
 # Install
 
 **This script does not work with z shell** because it uses readarray in order to make the
-dictionary accesible to the script. In it's current form, it's a linux only application
+dictionary accesible to the script. In its current form, it's a linux only application
 for bash interpreters. You can use the <code>chsh</code> command to change your default
 shell:
 
