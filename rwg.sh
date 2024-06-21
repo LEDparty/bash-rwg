@@ -1,7 +1,7 @@
 #!/bin/bash
 #random word generator
 SCRIPT=$0
-
+#
 #associates nanoseconds with a time
 #to be used when you generato more than one word
 
