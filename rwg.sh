@@ -4,7 +4,8 @@ SCRIPT=$0
 #
 #associates nanoseconds with a time
 #to be used when you generato more than one word
-
+#
+#
 now=$(date +%N | cut -c 9)
 
 case $now in
